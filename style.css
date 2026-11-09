@@ -1,0 +1,197 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #222;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #10243a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #65d6c4;
+}
+
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #087f8c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    background-color: #10243a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* ===== Modern Cybersecurity Design ===== */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Better overall layout */
+* {
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    padding: 30px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+/* Section effects */
+section {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Buttons hover effect */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #065a75;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Input focus effect */
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #087f8c;
+    box-shadow: 0 0 6px rgba(8, 127, 140, 0.35);
+}
+
+/* Table styling */
+th {
+    background-color: #10243a;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf1f5;
+}
+
+tr:hover {
+    background-color: #dcecf2;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 30px;
+    padding: 25px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        width: 100%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+}
